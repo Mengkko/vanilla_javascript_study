@@ -26,5 +26,7 @@ function solution(arr) {
   const answer = arr.length < 1 ? [-1] : arr;
   // 배열의 크기가 1보다 작다면 [-1] 배열을 리턴합니다.
 
+  // 문제 풀이후 본 인상적인 답
+  // Math객체를 사용해서 Math.min(...arr) 최소값을 구할수 있다.
   return answer;
 }

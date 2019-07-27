@@ -17,5 +17,7 @@ function solution(n) {
   // for문을 통해 문자열로 변환된 배열의 값들을 다시한번 자바스크립트 자동 형 변환을 통해
   // 다시 자연수로 변환해 줍니다.
 
+  // const answer = (n + "").split("").reverse().map(n => parseInt(n))
+  // 프로그래머스 정답 제출 후 본 정답.
   return answer;
 }
